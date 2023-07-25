@@ -1,0 +1,101 @@
+.container{
+    margin: 0 5% auto;
+    background-color: #fffafa;
+    box-sizing: border-box;
+    padding-top: 1%;
+}
+.status-bar{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time{
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight:200;
+}
+.status-icon img{
+    width: 30px;
+   margin: 0 2px auto ;    
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.description{
+    text-align: center;
+    font-family: "Roboto";
+    width: 50%;
+    margin: auto;
+    margin-top: 30%;
+}
+.confetti-btn{
+    border: none;
+    background: none;
+    font-size: 5rem;
+}
+#write-up{
+    font-weight: 600;
+    font-size: 25px
+}
+#closer{
+    font-size: 20px;
+}
+.description canvas{
+    pointer-events: none;
+}
+.home-btn{
+    text-align: center;
+    margin-top: 25%;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #03A84E;
+    color: #E9FBF2;
+    padding: 8px;
+    font-size: 18px;
+    font-family: "Roboto";
+    margin-bottom: 10%;
+}
+.home-btn a{
+    color: #fff;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;    
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        margin: 0 2% auto;
+    }
+    .status-bar{
+        display: flex;
+        align-items: center;
+    }
+
+    #write-up{
+        font-weight: 500;
+        font-size: 15px
+    }
+    .description{
+        text-align: center;
+    }
+    #closer{
+        font-size: 20px;
+    }
+    .status-icon img{
+        width: 20px;
+       /* margin: 0 2px auto ;     */
+    }
+    .time{
+        font-size: 1rem;
+        font-family: Inter;
+        /* font-weight:200; */
+    }
+    .home-btn{
+        text-align: center;
+        margin-top: 15%;
+        text-align: center;
+
+    }
+}

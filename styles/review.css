@@ -1,0 +1,385 @@
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+
+.status-icon img{
+    width: 30px;
+   margin: 0 2px auto ;    
+}
+
+.parent-container{
+    margin: 0 5% auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.time{
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight:200;
+}
+
+.status-bar{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-plan {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 33%;
+}
+.review-plan p {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.progress-bar{
+    padding-top: 40px;
+}
+.progress-bar img{
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.plan-review{
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.plan-review h2{
+    font-family: "PT Serif";
+}
+
+.plan-review p{
+    font-family: "Roboto";
+    width: 80%;
+}
+
+.plan-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.plan h3{
+    /* width: 30%; */
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Roboto';
+}
+.services h3{
+    width: 100%;
+    padding-right: 20px;
+    color: green;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.hr-line{
+    margin-bottom: 35px;
+}
+
+.category{
+    display: flex;
+    font-family: "Roboto";
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 1%;
+    margin-top: 25px;
+}
+
+.food-body{
+    background-color: #E9FBF2;
+}
+
+.laundry-body{
+    background-color: #c2e6e7;
+}
+
+.cleaning-body{
+    background-color: rgb(249, 228, 203);
+}
+
+.beauty-body{
+    background-color: rgb(248, 222, 227);
+    margin-bottom: 25px;
+}
+
+.food{
+     display: flex;
+     padding: 12px;
+     align-items: center;
+     margin-bottom: 10px;
+}
+.food h4{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #0F241B;
+}    
+
+.expand{
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
+.expand p{
+    /* margin-top: 38px; */
+    width: 100%;
+    color: #4B6358;
+}
+
+.price{
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 25px;
+    color: #4B6358;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.start-date-sec{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#choose-date{
+    width: 100%;
+    color: green;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-left: 60%;
+}
+
+#start-date{
+    font-weight: 600;
+    color: #0F241B;
+}
+
+.payment-date{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid orange;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.payment-date p{
+    margin-bottom: 20px;
+}
+
+#vector-img{
+    width: 30px;
+    color: yellow;
+}
+.discount-sec{
+    margin-bottom: 25px;
+}
+#code{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#code #btn{
+    border-radius: 40px;
+    border: 1px solid #E2E9E6;
+    padding: 12px;
+    width: 30%;
+    color: #0F241B;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto";
+    background: none;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #0F241B;
+    width: 50%;
+    height: 50px;
+    border-color: #03A84E;
+}
+
+.discount-sec p{
+    color: #03A84E;
+}
+.discount-sec h4{
+    color: #0F241B;
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+.price-rate > div{
+    display: flex;
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 100%;
+    color: #0F241B;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-rate .right-text{
+    text-align: right;
+    font-weight: 600;
+}
+.price-rate .rate{
+    color: #03A84E;
+}
+.sub-text{
+    justify-content:flex-end;
+}
+#subscription-text{
+    text-align: right;
+    width: 40%;
+    color: #4B6358;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #E2E9E6;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.frequency{
+    text-align: center;
+}
+#view{
+    text-align: center;
+    border-radius: 40px;
+    background-color: #03A84E;
+    color: #E9FBF2;
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.frequency a{
+    color: #03A84E;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+}
+
+.frequency p{
+    width: 100%;
+    font-weight: 500;
+}
+@media screen and (max-width: 700px) {
+        .parent-container{
+            margin: 0 2% auto;
+        }
+        .status-bar{
+            display: flex;
+            align-items: center;
+        }
+        .progress-bar img{
+            width: 95%;
+            margin-left: 2%;
+        }
+        .review-plan {
+            padding-left:3%;
+
+        }
+        .review-plan  p{
+            font-size: 18px;
+        }
+        .plan-review{
+            text-align: center;
+        }
+        .plan-review p{
+            font-family: "Roboto";
+            width: 80%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        .plan-details{
+            font-size: 10px;
+        }
+        .plan h3{
+            width: 100%;
+            padding-left: 0px;
+        }
+        .services h3{
+            width: 100%;
+            padding-right: 0px;
+            font-size: 15px;
+        }
+        .price h3{
+            font-size: 14px;
+        }    
+        #choose-date{
+            font-size: 14px;
+            margin-left: 20%;
+        }
+        .payment-date p{
+            font-size: 15px;
+        }
+        .discount-sec h4{
+            font-size: 18px;
+        }
+        #code #btn{
+            width: 45%;
+            font-size: 15px;
+        }
+        .discount-sec p{
+            font-size: 14px;
+        }
+        .price-rate p:first-child{
+            font-weight: 400;
+        }
+        #subscription-text{
+            text-align: right;
+            width: 90%;
+            font-size: 14px;
+            color: #4B6358;
+            padding-left: 9%;
+            font-size:13px;
+        }
+        .amount p{
+            font-size: 14px;
+            margin-left: 15px;
+        }
+        #view{
+            padding: 12px;
+            font-size: 14px;
+        }
+        .frequency p{
+            font-size: 13px;
+            margin:10% 0%;
+        }
+        .time{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .status-icon img{
+            width: 20px;  
+        }
+}
+
+
+
